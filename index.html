@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nobodje's HTML & CSS Cheatsheet</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- banner -->
+     <div id="banner">
+        <!-- Header -->
+        <header>
+            <h1>Nobodje's HTML & CSS Cheatsheet</h1>
+            <h3>Quick reference for HTML and CSS syntax and properties.</h3>
+        </header>
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#html" class="button">HTML</a></li>
+                <li><a href="#css" class="button">CSS</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- HTML Section -->
+     <div class="content">
+        <section id="html">
+            <h2>HTML Tables</h2>   
+            <h3>Table tags</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="tags">&lt;table&gt;</th>
+                        <td>Table</td>
+                        <td>Tag to declare a table</td>
+                    </tr>
+                    <tr>
+                        <th class="tags">&lt;thead&gt;</th>
+                        <td>Table head</td>
+                        <td>Tag to declare table header</td>
+                    <tr>
+                        <th class="tags">&lt;tr&gt;</th>
+                        <td>Table Row</td>
+                        <td>Tag to declare a row in a table</td>
+                    </tr>
+                    <tr>
+                        <th class="tags">&lt;th&gt;</th>
+                        <td>Table Header</td>
+                        <td>Tag to declare a header cell in a table</td>
+                    </tr>
+                    <tr>
+                        <th class="tags">&lt;td&gt;</th>
+                        <td>Table Data</td>
+                        <td>Tag to declare a data cell in a table</td>
+                    </tr>
+                    <tr>
+                        <th class="tags">&lt;tbody&gt;</th>
+                        <td>Table Body</td>
+                        <td>Tag to declare the body of a table</td>
+                    </tr>
+                    <tr>
+                        <th class="tags">&lt;tfoot&gt;</th>
+                        <td>Table Footer</td>
+                        <td>Tag to declare the footer of a table</td>
+                    </tr>
+                    <tr>
+                        <th class="tags">&lt;caption&gt;</th>
+                        <td>Table Caption</td>
+                        <td>Tag to declare a caption for a table</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Table attribute</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="tags">colspan</th>
+                        <td>Column Span</td>
+                        <td>Attribute to specify the number of columns a cell should span</td>
+                    </tr>
+                    <tr>
+                        <th class="tags">rowspan</th>
+                        <td>Row Span</td>
+                        <td>Attribute to specify the number of rows a cell should span</td>
+                    </tr>
+                    <tr>
+                        <th class="tags">scope</th>
+                        <td>Scope</td>
+                        <td>Attribute to specify the scope of a header cell (row, col, rowgroup, colgroup)</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            <!-- CSS section -->
+                <section id="css">
+                <h2>CSS Layout</h2>
+                <!-- <h3>CSS Table</h3> -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Property</th>
+                            <th>Values</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="tags">float</th>
+                            <td>left, right, none</td>
+                            <td>Property to float an element to the left or right</td>
+                        </tr>
+                        <tr>
+                            <th class="tags">clear</th>
+                            <td>left, right, both, none</td>
+                            <td>Property to specify whether an element can be next to floating elements</td>
+                        </tr>
+                        <tr>
+                            <th class="tags">display</th>
+                            <td>block, inline, inline-block, flex, grid</td>
+                            <td>Property to specify the display behavior of an element</td>
+                        </tr>
+                        <tr>
+                            <th class="tags">position</th>
+                            <td>static, relative, absolute, fixed, sticky</td>
+                            <td>Property to specify the positioning method of an element</td>
+                        </tr>
+                        <tr>
+                            <th class="tags">z-index</th>
+                            <td>integer</td>
+                            <td>Property to specify the stack order of an element</td>
+                        </tr>
+                        <tr>
+                            <th class="tags">overflow</th>
+                            <td>visible, hidden, scroll, auto</td>
+                            <td>Property to specify what happens if content overflows an element's box</td>
+                        </tr>
+                        <tr>
+                            <th class="tags">margin</th>
+                            <td>length, percentage, auto</td>
+                            <td>Property to specify the space outside an element's border</td>
+                        </tr>
+                        <tr>
+                            <th class="tags">padding</th>
+                            <td>length, percentage</td>
+                            <td>Property to specify the space inside an element's border</td>
+                        </tr>
+                        <tr>
+                            <th class="tags">border</th>
+                            <td>width style color</td>
+                            <td>Property to specify the border of an element</td>
+                        </tr>
+                        <tr>
+                            <th class="tags">box-sizing</th>
+                            <td>content-box, border-box</td>
+                            <td>Property to specify how the width and height of an element are calculated</td> 
+                        </tr>
+                    </tbody>
+                </table>
+                </section>
+         </div>
+</body>
+</html>

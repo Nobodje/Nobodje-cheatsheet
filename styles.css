@@ -1,0 +1,134 @@
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+/* Titles styling */
+
+h1 {
+    color: rgb(61, 32, 175);
+    text-align: center;
+    font-family: barriecito, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+h2 {
+    color: rgb(61, 32, 175);
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0px;
+    font-family: barriecito, Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+    color: rgb(35, 21, 37);
+    text-align: center;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* Banner styling */
+#banner {
+    background-color: rgba(76, 219, 155, 0.91);
+    background-image: url(./resources/images/computer-program-coding-screen.jpg);
+    background-size: cover;
+    background-blend-mode: lighten;
+    color: rgb(61, 32, 175);
+    text-align: center;
+    padding: 10px;
+    height: 170px;
+    /* fixing the banner to the top */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Main page styling */
+.content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-position: top;
+    background-color: beige;
+    background-image: url(./resources/images/sepia-plasterboard-texture.jpg);
+    background-size: stretch;
+}
+/* Text placement */
+#html {
+    margin-top: 170px;
+    display: block;
+    scroll-margin-top: 200px; /* Fixes the scroll position when clicking the anchor*/
+}
+
+nav {
+    text-align: center;
+}
+
+nav li {  
+    display: inline-block;
+}
+
+/* Button styling */
+.button {
+    background-color: rgb(61, 32, 175);
+    position:relative;
+    top: 8px;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    color: rgb(76, 219, 155);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.button:hover {
+    background-color: rgb(108, 90, 179);
+    color: rgb(126, 221, 179);
+    transition: all 0.3s ease;
+}
+
+/* Table styling */
+table {
+    border: 3px solid rgb(59, 170, 120);
+    border-radius: 10px;
+    width: 700px;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow:hidden; /* Fixes the border radius */
+}
+
+thead {
+    background-color: rgb(76, 219, 155);
+    color: rgb(61, 32, 175);
+    font-family: Roboto;
+}
+
+table th, table td {
+    border-bottom: 1px solid rgb(59, 170, 120);
+}
+
+td {
+    padding: 0px 15px;
+    /* background-color: rgba(222, 179, 240, 0.689); */
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+table tr:nth-last-child {
+    border-bottom: 0px !important;
+}
+tbody th {
+    padding: 0px 15px;
+    background-color: rgba(102, 255, 186, 0.546);
+    color: rgb(61, 32, 175);
+}
+
+.tags {
+    font-family: monospace;
+    padding: 0px 15px;
+    color: rgb(42, 32, 43);
+    letter-spacing: 0.1rem;
+    white-space: nowrap; /* Prevents line breaks */
+}
